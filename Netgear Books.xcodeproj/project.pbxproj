@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D38D6482C5E5DDF00ADD586 /* Netgear_BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */; };
+		2D38D64A2C5E5DDF00ADD586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6492C5E5DDF00ADD586 /* ContentView.swift */; };
+		2D38D64C2C5E5DDF00ADD586 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D64B2C5E5DDF00ADD586 /* Item.swift */; };
+		2D38D64E2C5E5DE000ADD586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */; };
+		2D38D6512C5E5DE000ADD586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */; };
+		2D38D65B2C5E5DE000ADD586 /* Netgear_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */; };
+		2D38D6652C5E5DE000ADD586 /* Netgear_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */; };
+		2D38D6672C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D38D6572C5E5DE000ADD586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D38D63C2C5E5DDF00ADD586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D38D6432C5E5DDF00ADD586;
+			remoteInfo = "Netgear Books";
+		};
+		2D38D6612C5E5DE000ADD586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D38D63C2C5E5DDF00ADD586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D38D6432C5E5DDF00ADD586;
+			remoteInfo = "Netgear Books";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netgear Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksApp.swift; sourceTree = "<group>"; };
+		2D38D6492C5E5DDF00ADD586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D38D64B2C5E5DDF00ADD586 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netgear BooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksTests.swift; sourceTree = "<group>"; };
+		2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netgear BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITests.swift; sourceTree = "<group>"; };
+		2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D38D6412C5E5DDF00ADD586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D6532C5E5DE000ADD586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D65D2C5E5DE000ADD586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D38D63B2C5E5DDF00ADD586 = {
+			isa = PBXGroup;
+			children = (
+				2D38D6462C5E5DDF00ADD586 /* Netgear Books */,
+				2D38D6592C5E5DE000ADD586 /* Netgear BooksTests */,
+				2D38D6632C5E5DE000ADD586 /* Netgear BooksUITests */,
+				2D38D6452C5E5DDF00ADD586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D38D6452C5E5DDF00ADD586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */,
+				2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */,
+				2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D38D6462C5E5DDF00ADD586 /* Netgear Books */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */,
+				2D38D6492C5E5DDF00ADD586 /* ContentView.swift */,
+				2D38D64B2C5E5DDF00ADD586 /* Item.swift */,
+				2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */,
+				2D38D64F2C5E5DE000ADD586 /* Preview Content */,
+			);
+			path = "Netgear Books";
+			sourceTree = "<group>";
+		};
+		2D38D64F2C5E5DE000ADD586 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D38D6592C5E5DE000ADD586 /* Netgear BooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */,
+			);
+			path = "Netgear BooksTests";
+			sourceTree = "<group>";
+		};
+		2D38D6632C5E5DE000ADD586 /* Netgear BooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */,
+				2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */,
+			);
+			path = "Netgear BooksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D38D6432C5E5DDF00ADD586 /* Netgear Books */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear Books" */;
+			buildPhases = (
+				2D38D6402C5E5DDF00ADD586 /* Sources */,
+				2D38D6412C5E5DDF00ADD586 /* Frameworks */,
+				2D38D6422C5E5DDF00ADD586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Netgear Books";
+			productName = "Netgear Books";
+			productReference = 2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D38D6552C5E5DE000ADD586 /* Netgear BooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksTests" */;
+			buildPhases = (
+				2D38D6522C5E5DE000ADD586 /* Sources */,
+				2D38D6532C5E5DE000ADD586 /* Frameworks */,
+				2D38D6542C5E5DE000ADD586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D38D6582C5E5DE000ADD586 /* PBXTargetDependency */,
+			);
+			name = "Netgear BooksTests";
+			productName = "Netgear BooksTests";
+			productReference = 2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D38D65F2C5E5DE000ADD586 /* Netgear BooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksUITests" */;
+			buildPhases = (
+				2D38D65C2C5E5DE000ADD586 /* Sources */,
+				2D38D65D2C5E5DE000ADD586 /* Frameworks */,
+				2D38D65E2C5E5DE000ADD586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D38D6622C5E5DE000ADD586 /* PBXTargetDependency */,
+			);
+			name = "Netgear BooksUITests";
+			productName = "Netgear BooksUITests";
+			productReference = 2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D38D63C2C5E5DDF00ADD586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2D38D6432C5E5DDF00ADD586 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2D38D6552C5E5DE000ADD586 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D38D6432C5E5DDF00ADD586;
+					};
+					2D38D65F2C5E5DE000ADD586 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D38D6432C5E5DDF00ADD586;
+					};
+				};
+			};
+			buildConfigurationList = 2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Netgear Books" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D38D63B2C5E5DDF00ADD586;
+			productRefGroup = 2D38D6452C5E5DDF00ADD586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D38D6432C5E5DDF00ADD586 /* Netgear Books */,
+				2D38D6552C5E5DE000ADD586 /* Netgear BooksTests */,
+				2D38D65F2C5E5DE000ADD586 /* Netgear BooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D38D6422C5E5DDF00ADD586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38D6512C5E5DE000ADD586 /* Preview Assets.xcassets in Resources */,
+				2D38D64E2C5E5DE000ADD586 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D6542C5E5DE000ADD586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D65E2C5E5DE000ADD586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D38D6402C5E5DDF00ADD586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38D64A2C5E5DDF00ADD586 /* ContentView.swift in Sources */,
+				2D38D64C2C5E5DDF00ADD586 /* Item.swift in Sources */,
+				2D38D6482C5E5DDF00ADD586 /* Netgear_BooksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D6522C5E5DE000ADD586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38D65B2C5E5DE000ADD586 /* Netgear_BooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D38D65C2C5E5DE000ADD586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38D6672C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift in Sources */,
+				2D38D6652C5E5DE000ADD586 /* Netgear_BooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D38D6582C5E5DE000ADD586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D38D6432C5E5DDF00ADD586 /* Netgear Books */;
+			targetProxy = 2D38D6572C5E5DE000ADD586 /* PBXContainerItemProxy */;
+		};
+		2D38D6622C5E5DE000ADD586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D38D6432C5E5DDF00ADD586 /* Netgear Books */;
+			targetProxy = 2D38D6612C5E5DE000ADD586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D38D6682C5E5DE000ADD586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D38D6692C5E5DE000ADD586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D38D66B2C5E5DE000ADD586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Netgear Books/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-Books";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D38D66C2C5E5DE000ADD586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Netgear Books/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-Books";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D38D66E2C5E5DE000ADD586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-BooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netgear Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Netgear Books";
+			};
+			name = Debug;
+		};
+		2D38D66F2C5E5DE000ADD586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-BooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netgear Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Netgear Books";
+			};
+			name = Release;
+		};
+		2D38D6712C5E5DE000ADD586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-BooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Netgear Books";
+			};
+			name = Debug;
+		};
+		2D38D6722C5E5DE000ADD586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PN68ERUJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightstarsoftware.Netgear-BooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Netgear Books";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Netgear Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38D6682C5E5DE000ADD586 /* Debug */,
+				2D38D6692C5E5DE000ADD586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38D66B2C5E5DE000ADD586 /* Debug */,
+				2D38D66C2C5E5DE000ADD586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38D66E2C5E5DE000ADD586 /* Debug */,
+				2D38D66F2C5E5DE000ADD586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38D6712C5E5DE000ADD586 /* Debug */,
+				2D38D6722C5E5DE000ADD586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D38D63C2C5E5DDF00ADD586 /* Project object */;
+}
