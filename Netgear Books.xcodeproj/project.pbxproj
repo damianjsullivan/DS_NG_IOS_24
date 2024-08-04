@@ -15,6 +15,27 @@
 		2D38D65B2C5E5DE000ADD586 /* Netgear_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */; };
 		2D38D6652C5E5DE000ADD586 /* Netgear_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */; };
 		2D38D6672C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */; };
+		2D38D6792C5FCCF300ADD586 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6782C5FCCF300ADD586 /* BookResponse.swift */; };
+		2D38D6932C5FCD2600ADD586 /* AccessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D67A2C5FCD2500ADD586 /* AccessInfo.swift */; };
+		2D38D6952C5FCD2600ADD586 /* SaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D67C2C5FCD2500ADD586 /* SaleInfo.swift */; };
+		2D38D6972C5FCD2600ADD586 /* VolumeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D67E2C5FCD2500ADD586 /* VolumeInfo.swift */; };
+		2D38D6982C5FCD2600ADD586 /* ReadingModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D67F2C5FCD2600ADD586 /* ReadingModes.swift */; };
+		2D38D6992C5FCD2600ADD586 /* IndustryIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6802C5FCD2600ADD586 /* IndustryIdentifier.swift */; };
+		2D38D69A2C5FCD2600ADD586 /* TextToSpeechPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6812C5FCD2600ADD586 /* TextToSpeechPermission.swift */; };
+		2D38D69C2C5FCD2600ADD586 /* PanelizationSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6832C5FCD2600ADD586 /* PanelizationSummary.swift */; };
+		2D38D69D2C5FCD2600ADD586 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6842C5FCD2600ADD586 /* Book.swift */; };
+		2D38D69E2C5FCD2600ADD586 /* Saleability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6852C5FCD2600ADD586 /* Saleability.swift */; };
+		2D38D69F2C5FCD2600ADD586 /* TypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6862C5FCD2600ADD586 /* TypeEnum.swift */; };
+		2D38D6A02C5FCD2600ADD586 /* SearchInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6872C5FCD2600ADD586 /* SearchInfo.swift */; };
+		2D38D6A12C5FCD2600ADD586 /* PrintType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6882C5FCD2600ADD586 /* PrintType.swift */; };
+		2D38D6A22C5FCD2600ADD586 /* AccessViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6892C5FCD2600ADD586 /* AccessViewStatus.swift */; };
+		2D38D6A32C5FCD2600ADD586 /* SaleInfoListPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68A2C5FCD2600ADD586 /* SaleInfoListPrice.swift */; };
+		2D38D6A42C5FCD2600ADD586 /* OfferListPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68B2C5FCD2600ADD586 /* OfferListPrice.swift */; };
+		2D38D6A52C5FCD2600ADD586 /* ImageLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68C2C5FCD2600ADD586 /* ImageLinks.swift */; };
+		2D38D6A72C5FCD2600ADD586 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68E2C5FCD2600ADD586 /* Epub.swift */; };
+		2D38D6A82C5FCD2600ADD586 /* Viewability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68F2C5FCD2600ADD586 /* Viewability.swift */; };
+		2D38D6AA2C5FCD2600ADD586 /* MaturityRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6912C5FCD2600ADD586 /* MaturityRating.swift */; };
+		2D38D6AB2C5FCD2600ADD586 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6922C5FCD2600ADD586 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +67,27 @@
 		2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netgear BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITests.swift; sourceTree = "<group>"; };
 		2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D38D6782C5FCCF300ADD586 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
+		2D38D67A2C5FCD2500ADD586 /* AccessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessInfo.swift; sourceTree = "<group>"; };
+		2D38D67C2C5FCD2500ADD586 /* SaleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleInfo.swift; sourceTree = "<group>"; };
+		2D38D67E2C5FCD2500ADD586 /* VolumeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeInfo.swift; sourceTree = "<group>"; };
+		2D38D67F2C5FCD2600ADD586 /* ReadingModes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingModes.swift; sourceTree = "<group>"; };
+		2D38D6802C5FCD2600ADD586 /* IndustryIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndustryIdentifier.swift; sourceTree = "<group>"; };
+		2D38D6812C5FCD2600ADD586 /* TextToSpeechPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeechPermission.swift; sourceTree = "<group>"; };
+		2D38D6832C5FCD2600ADD586 /* PanelizationSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelizationSummary.swift; sourceTree = "<group>"; };
+		2D38D6842C5FCD2600ADD586 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2D38D6852C5FCD2600ADD586 /* Saleability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saleability.swift; sourceTree = "<group>"; };
+		2D38D6862C5FCD2600ADD586 /* TypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeEnum.swift; sourceTree = "<group>"; };
+		2D38D6872C5FCD2600ADD586 /* SearchInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInfo.swift; sourceTree = "<group>"; };
+		2D38D6882C5FCD2600ADD586 /* PrintType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintType.swift; sourceTree = "<group>"; };
+		2D38D6892C5FCD2600ADD586 /* AccessViewStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessViewStatus.swift; sourceTree = "<group>"; };
+		2D38D68A2C5FCD2600ADD586 /* SaleInfoListPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleInfoListPrice.swift; sourceTree = "<group>"; };
+		2D38D68B2C5FCD2600ADD586 /* OfferListPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferListPrice.swift; sourceTree = "<group>"; };
+		2D38D68C2C5FCD2600ADD586 /* ImageLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLinks.swift; sourceTree = "<group>"; };
+		2D38D68E2C5FCD2600ADD586 /* Epub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
+		2D38D68F2C5FCD2600ADD586 /* Viewability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewability.swift; sourceTree = "<group>"; };
+		2D38D6912C5FCD2600ADD586 /* MaturityRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaturityRating.swift; sourceTree = "<group>"; };
+		2D38D6922C5FCD2600ADD586 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +138,11 @@
 		2D38D6462C5E5DDF00ADD586 /* Netgear Books */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6732C5E5E2900ADD586 /* BookSearch */,
+				2D38D6742C5E5E3500ADD586 /* BookResultItem */,
+				2D38D6752C5E5E5000ADD586 /* BookDetails */,
+				2D38D6762C5E5E6C00ADD586 /* Models */,
+				2D38D6772C5E5E7F00ADD586 /* Networking */,
 				2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */,
 				2D38D6492C5E5DDF00ADD586 /* ContentView.swift */,
 				2D38D64B2C5E5DDF00ADD586 /* Item.swift */,
@@ -128,6 +175,62 @@
 				2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */,
 			);
 			path = "Netgear BooksUITests";
+			sourceTree = "<group>";
+		};
+		2D38D6732C5E5E2900ADD586 /* BookSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		2D38D6742C5E5E3500ADD586 /* BookResultItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookResultItem;
+			sourceTree = "<group>";
+		};
+		2D38D6752C5E5E5000ADD586 /* BookDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookDetails;
+			sourceTree = "<group>";
+		};
+		2D38D6762C5E5E6C00ADD586 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6782C5FCCF300ADD586 /* BookResponse.swift */,
+				2D38D6842C5FCD2600ADD586 /* Book.swift */,
+				2D38D67E2C5FCD2500ADD586 /* VolumeInfo.swift */,
+				2D38D67C2C5FCD2500ADD586 /* SaleInfo.swift */,
+				2D38D67A2C5FCD2500ADD586 /* AccessInfo.swift */,
+				2D38D6872C5FCD2600ADD586 /* SearchInfo.swift */,
+				2D38D6892C5FCD2600ADD586 /* AccessViewStatus.swift */,
+				2D38D68E2C5FCD2600ADD586 /* Epub.swift */,
+				2D38D68C2C5FCD2600ADD586 /* ImageLinks.swift */,
+				2D38D6802C5FCD2600ADD586 /* IndustryIdentifier.swift */,
+				2D38D6912C5FCD2600ADD586 /* MaturityRating.swift */,
+				2D38D6922C5FCD2600ADD586 /* Offer.swift */,
+				2D38D68B2C5FCD2600ADD586 /* OfferListPrice.swift */,
+				2D38D6832C5FCD2600ADD586 /* PanelizationSummary.swift */,
+				2D38D6882C5FCD2600ADD586 /* PrintType.swift */,
+				2D38D67F2C5FCD2600ADD586 /* ReadingModes.swift */,
+				2D38D6852C5FCD2600ADD586 /* Saleability.swift */,
+				2D38D68A2C5FCD2600ADD586 /* SaleInfoListPrice.swift */,
+				2D38D6812C5FCD2600ADD586 /* TextToSpeechPermission.swift */,
+				2D38D6862C5FCD2600ADD586 /* TypeEnum.swift */,
+				2D38D68F2C5FCD2600ADD586 /* Viewability.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D38D6772C5E5E7F00ADD586 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +363,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D38D69A2C5FCD2600ADD586 /* TextToSpeechPermission.swift in Sources */,
+				2D38D6A82C5FCD2600ADD586 /* Viewability.swift in Sources */,
+				2D38D69C2C5FCD2600ADD586 /* PanelizationSummary.swift in Sources */,
+				2D38D6932C5FCD2600ADD586 /* AccessInfo.swift in Sources */,
+				2D38D6A42C5FCD2600ADD586 /* OfferListPrice.swift in Sources */,
+				2D38D6AB2C5FCD2600ADD586 /* Offer.swift in Sources */,
+				2D38D6A72C5FCD2600ADD586 /* Epub.swift in Sources */,
+				2D38D6972C5FCD2600ADD586 /* VolumeInfo.swift in Sources */,
+				2D38D6A52C5FCD2600ADD586 /* ImageLinks.swift in Sources */,
 				2D38D64A2C5E5DDF00ADD586 /* ContentView.swift in Sources */,
+				2D38D6AA2C5FCD2600ADD586 /* MaturityRating.swift in Sources */,
+				2D38D6992C5FCD2600ADD586 /* IndustryIdentifier.swift in Sources */,
+				2D38D69F2C5FCD2600ADD586 /* TypeEnum.swift in Sources */,
 				2D38D64C2C5E5DDF00ADD586 /* Item.swift in Sources */,
+				2D38D6A32C5FCD2600ADD586 /* SaleInfoListPrice.swift in Sources */,
 				2D38D6482C5E5DDF00ADD586 /* Netgear_BooksApp.swift in Sources */,
+				2D38D6A22C5FCD2600ADD586 /* AccessViewStatus.swift in Sources */,
+				2D38D6792C5FCCF300ADD586 /* BookResponse.swift in Sources */,
+				2D38D69D2C5FCD2600ADD586 /* Book.swift in Sources */,
+				2D38D6A12C5FCD2600ADD586 /* PrintType.swift in Sources */,
+				2D38D6952C5FCD2600ADD586 /* SaleInfo.swift in Sources */,
+				2D38D6982C5FCD2600ADD586 /* ReadingModes.swift in Sources */,
+				2D38D6A02C5FCD2600ADD586 /* SearchInfo.swift in Sources */,
+				2D38D69E2C5FCD2600ADD586 /* Saleability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
