@@ -6,10 +6,13 @@
 //
 
 import Foundation
+import SwiftData
 
 // MARK: - Item
-class Book: Codable {
+@Model
+class Book: Identifiable, Codable {
     let kind: String
+    @Attribute(.unique)
     let id: String
     let etag: String
     let selfLink: String
@@ -39,4 +42,29 @@ class Book: Codable {
         case accessInfo = "accessInfo"
         case searchInfo = "searchInfo"
     }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.kind = try container.decode(String.self, forKey: .kind)
+        self.id = try container.decode(String.self, forKey: .id)
+        self.etag = try container.decode(String.self, forKey: .etag)
+        self.selfLink = try container.decode(String.self, forKey: .selfLink)
+        self.volumeInfo = try container.decode(VolumeInfo.self, forKey: .volumeInfo)
+        self.saleInfo = try container.decode(SaleInfo.self, forKey: .saleInfo)
+        self.accessInfo = try container.decode(AccessInfo.self, forKey: .accessInfo)
+        self.searchInfo = try container.decode(SearchInfo?.self, forKey: .searchInfo)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(kind, forKey: .kind)
+        try container.encode(id, forKey: .id)
+        try container.encode(etag, forKey: .etag)
+        try container.encode(selfLink, forKey: .selfLink)
+        try container.encode(volumeInfo, forKey: .volumeInfo)
+        try container.encode(saleInfo, forKey: .saleInfo)
+        try container.encode(accessInfo, forKey: .accessInfo)
+        try container.encode(searchInfo, forKey: .searchInfo)
+    }
+    
 }
