@@ -13,15 +13,7 @@ final class BookServiceTests: XCTestCase {
     
     override func setUpWithError() throws {
         mockService = MockBookService()
-        
-        let bundle = Bundle(for: type(of: self))
-        guard let url = bundle.url(forResource: "sampleBooks", withExtension: "json") else {
-            XCTFail("Missing file: testBooks.json")
-            return
-        }
-        let jsonData = try Data(contentsOf: url)
-        let bookResponse = try JSONDecoder().decode(BookResponse.self, from: jsonData)
-        mockService.mockBooks = bookResponse.items
+        try mockService.loadSampleData()
     }
     
     override func tearDownWithError() throws {
