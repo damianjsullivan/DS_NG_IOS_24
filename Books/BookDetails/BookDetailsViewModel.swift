@@ -22,7 +22,7 @@ class BookDetailsViewModel {
         loadBookDetails()
     }
     
-    private func loadBookDetails() {
+    internal func loadBookDetails() {
         title = book.volumeInfo.title
         authors = book.volumeInfo.authors?.joined(separator: ", ") ?? "unknown"
         description = book.volumeInfo.volumeDescription ?? "No description available."
