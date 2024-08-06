@@ -40,4 +40,5 @@ struct BookDetailsView: View {
 
 #Preview {
     return BookDetailsView(book: Book.sampleData.first!)
+        .environment(\.sizeCategory, .accessibilityLarge)
 }

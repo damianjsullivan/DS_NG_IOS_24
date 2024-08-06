@@ -44,7 +44,7 @@ struct BookSearchView: View {
         TabView {
             ForEach(viewModel.books, id: \.id) { book in
                 NavigationLink(destination: BookDetailsView(book: book)) {
-                    BookCardView(book: book)
+                    BookCardView(book: book).padding()
                 }
                 .buttonStyle(PlainButtonStyle()) // Ensures the entire card is tappable
             }
@@ -59,4 +59,5 @@ struct BookSearchView: View {
     viewModel.books = Book.sampleData
     viewModel.isLoading = false
     return BookSearchView(viewModel: viewModel)
+        .environment(\.sizeCategory, .accessibilityLarge)
 }

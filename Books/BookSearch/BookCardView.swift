@@ -71,4 +71,5 @@ struct BookCardView: View {
 
 #Preview {
     BookCardView(book: Book.sampleData.first!)
+        .environment(\.sizeCategory, .accessibilityLarge)
 }
