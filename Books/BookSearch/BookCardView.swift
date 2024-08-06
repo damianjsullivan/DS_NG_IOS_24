@@ -54,6 +54,8 @@ struct BookCardView: View {
         .background(Color(UIColor.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 8))
         .shadow(radius: 5)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(viewModel.title) by \(viewModel.authors)")
     }
     
     private func placeholderImage() -> some View {

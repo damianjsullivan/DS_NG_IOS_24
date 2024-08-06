@@ -22,6 +22,7 @@ struct BookSearchView: View {
                 } else if let errorMessage = viewModel.errorMessage {
                     Text(errorMessage)
                         .foregroundColor(.red)
+                        .accessibilityLabel("Error Message, \(errorMessage)")
                 } else {
                     booksListView()
                 }
