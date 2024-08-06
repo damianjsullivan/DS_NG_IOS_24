@@ -1,50 +1,53 @@
 //
 //  BookServiceTests.swift
-//  Netgear BooksTests
+//  BooksTests
 //
-//  Created by Damian Sullivan on 05/08/2024.
+//  Created by Damian Sullivan on 06/08/2024.
 //
 
 import XCTest
 @testable import Books
 
 final class BookServiceTests: XCTestCase {
-
-    var bookService: BookService!
+    var mockService: MockBookService!
     
-    override func setUp() {
-        super.setUp()
-        bookService = BookService()
+    override func setUpWithError() throws {
+        mockService = MockBookService()
+        
+        let bundle = Bundle(for: type(of: self))
+        guard let url = bundle.url(forResource: "sampleBooks", withExtension: "json") else {
+            XCTFail("Missing file: testBooks.json")
+            return
+        }
+        let jsonData = try Data(contentsOf: url)
+        let bookResponse = try JSONDecoder().decode(BookResponse.self, from: jsonData)
+        mockService.mockBooks = bookResponse.items
     }
     
-    override func tearDown() {
-        bookService = nil
-        super.tearDown()
+    override func tearDownWithError() throws {
+        mockService = nil
     }
     
-    func testFetchBooksSuccessfully() async throws {
-        // Given
-        let query = "War and Peace"
+    func testSearchBooksReturnsBooks() async throws {
+        // Act
+        let result = try await mockService.searchBooks(query: "West")
         
-        // When
-        let books = try await bookService.searchBooks(query: query)
-        
-        // Then
-        XCTAssertFalse(books.isEmpty)
-        XCTAssertEqual(books.first?.volumeInfo.title, "War and Peace")
+        // Assert
+        XCTAssertEqual(result.count, 1)
+        XCTAssertTrue(result.contains(where: { $0.volumeInfo.title == "The West of Ireland" }))
     }
     
-    func testFetchBooksFailure() async {
-        // Given
-        let query = "" // Invalid query to simulate failure
+    func testSearchBooksThrowsError() async throws {
+        // Arrange
+        mockService.error = BookServiceError.invalidURL
         
+        // Act & Assert
         do {
-            _ = try await bookService.searchBooks(query: query)
+            _ = try await mockService.searchBooks(query: "West")
             XCTFail("Expected error but got success")
         } catch {
             // Then
             XCTAssertNotNil(error)
         }
     }
-
 }
