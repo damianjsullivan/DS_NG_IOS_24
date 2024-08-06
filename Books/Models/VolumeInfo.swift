@@ -10,7 +10,7 @@ import Foundation
 // MARK: - VolumeInfo
 struct VolumeInfo: Codable {
     let title: String
-    let authors: [String]
+    let authors: [String]?
     let publishedDate: String?
     let readingModes: ReadingModes
     let pageCount: Int?
