@@ -34,9 +34,7 @@ struct BookSearchView: View {
 //                viewModel.searchBooks()
 //            }
             .onSubmit(of: .search) {
-                Task {
-                    await viewModel.searchBooks()
-                }
+                viewModel.searchBooks()
             }
         }
     }

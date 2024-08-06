@@ -47,6 +47,7 @@
 		2D38D6D32C622DAD00ADD586 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6D22C622DAD00ADD586 /* DataManager.swift */; };
 		2D38D6D52C6247BD00ADD586 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6D42C6247BD00ADD586 /* BookCardView.swift */; };
 		2D38D6D72C6247CB00ADD586 /* BookCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6D62C6247CB00ADD586 /* BookCardViewModel.swift */; };
+		2D38D6DD2C62651B00ADD586 /* DataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6DC2C62651B00ADD586 /* DataManagerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		2D38D6D22C622DAD00ADD586 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2D38D6D42C6247BD00ADD586 /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
 		2D38D6D62C6247CB00ADD586 /* BookCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardViewModel.swift; sourceTree = "<group>"; };
+		2D38D6DC2C62651B00ADD586 /* DataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 		2D38D6B82C616BCE00ADD586 /* Persistance */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6DC2C62651B00ADD586 /* DataManagerProtocol.swift */,
 				2D38D6D22C622DAD00ADD586 /* DataManager.swift */,
 			);
 			path = Persistance;
@@ -448,6 +451,7 @@
 				2D38D6A52C5FCD2600ADD586 /* ImageLinks.swift in Sources */,
 				2D38D6AA2C5FCD2600ADD586 /* MaturityRating.swift in Sources */,
 				2D38D6992C5FCD2600ADD586 /* IndustryIdentifier.swift in Sources */,
+				2D38D6DD2C62651B00ADD586 /* DataManagerProtocol.swift in Sources */,
 				2D38D6CE2C61AC9B00ADD586 /* BookData.swift in Sources */,
 				2D38D6B12C616AE400ADD586 /* BookDetailsViewModel.swift in Sources */,
 				2D38D69F2C5FCD2600ADD586 /* TypeEnum.swift in Sources */,
