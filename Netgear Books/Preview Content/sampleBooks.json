@@ -1,0 +1,748 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2239,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "iGENAAAAYAAJ",
+      "etag": "Ko4IFCRhF2E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iGENAAAAYAAJ",
+      "volumeInfo": {
+        "title": "The West of Ireland",
+        "subtitle": "Its Existing Condition, and Prospects",
+        "authors": [
+          "Henry Coulter"
+        ],
+        "publishedDate": "1862",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044009668856"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 542,
+        "printType": "BOOK",
+        "categories": [
+          "Atlantic Coast (Ireland)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.6.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iGENAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iGENAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=iGENAAAAYAAJ&printsec=frontcover&dq=Ireland&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=iGENAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iGENAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=iGENAAAAYAAJ&rdid=book-iGENAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ie/books/download/The_West_of_Ireland.epub?id=iGENAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.ie/books/download/The_West_of_Ireland.pdf?id=iGENAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3rdTtnyGLMkD2noWoykpXdbdf62w&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iGENAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Nk9xxwEACAAJ",
+      "etag": "t0O1FeLA/fo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Nk9xxwEACAAJ",
+      "volumeInfo": {
+        "title": "An Ireland Worth Working for",
+        "subtitle": "Towards a New Democratic Programme",
+        "authors": [
+          "Tom Healy"
+        ],
+        "publishedDate": "2019",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1848407254"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781848407251"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 221,
+        "printType": "BOOK",
+        "categories": [
+          "Ireland"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Nk9xxwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Nk9xxwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=Nk9xxwEACAAJ&dq=Ireland&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=Nk9xxwEACAAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/An_Ireland_Worth_Working_for.html?hl=&id=Nk9xxwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Nk9xxwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4l9BEAAAQBAJ",
+      "etag": "jb0Ei1t4j0E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4l9BEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Old Ireland in Colour 2",
+        "authors": [
+          "John Breslin",
+          "Buckley Sarah-Anne"
+        ],
+        "publisher": "Merrion Press",
+        "publishedDate": "2021-09-09",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781785374135"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1785374133"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 234,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4l9BEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4l9BEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=4l9BEAAAQBAJ&printsec=frontcover&dq=Ireland&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=4l9BEAAAQBAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Old_Ireland_in_Colour_2.html?hl=&id=4l9BEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Old_Ireland_in_Colour_2-sample-epub.acsm?id=4l9BEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Old_Ireland_in_Colour_2-sample-pdf.acsm?id=4l9BEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4l9BEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Z5G3DwAAQBAJ",
+      "etag": "uehzB8IcYgI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z5G3DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Ireland Through Birds",
+        "subtitle": "Journeys in Search of a Wild Nation",
+        "authors": [
+          "Conor W. O'Brien"
+        ],
+        "publisher": "Merrion Press",
+        "publishedDate": "2019-10-17",
+        "description": "Twelve birds. One country. A wild Ireland waiting to be discovered. In Ireland Through Birds, Conor O’Brien takes the reader on an ornithological adventure around Ireland in search of twelve of our rarest and most elusive birds. Along the journey the author explores every kind of landscape and habitat our island has to offer across all four seasons, from the remote isles of Donegal to the rugged mountains of Kerry and urban parks of Dublin. Through it all, O’Brien is enchanted by calling corncrakes, mesmerised by hunting harriers, and chased by angry skuas. It’s a journey through a staggering array of landscapes that’ll bring the reader face to face with the rich history and stunning wildlife to be savoured right on our doorstep. It explores the stories of the remarkable birds that live here: the genius of the jay, the sublime mimicry of the cuckoo, the nocturnal prowess of the barn owl, while paying a moving,poetic tribute to our natural heritage – and a warning about the threats that face it. Ireland Through Birds is a unique blend of natural history and travelogue, making it a great read for anyone with an interest in Ireland’s natural world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781785373077"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1785373072"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 169,
+        "printType": "BOOK",
+        "categories": [
+          "Nature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Z5G3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Z5G3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=Z5G3DwAAQBAJ&printsec=frontcover&dq=Ireland&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Z5G3DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Z5G3DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 6.79,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Z5G3DwAAQBAJ&rdid=book-Z5G3DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 6790000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Ireland_Through_Birds-sample-epub.acsm?id=Z5G3DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Ireland_Through_Birds-sample-pdf.acsm?id=Z5G3DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Z5G3DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It explores the stories of the remarkable birds that live here: the genius of the jay, the sublime mimicry of the cuckoo, the nocturnal prowess of the barn owl, while paying a moving,poetic tribute to our natural heritage – and a warning ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "exics12jmtwC",
+      "etag": "0zVR+IQL9tk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/exics12jmtwC",
+      "volumeInfo": {
+        "title": "Ingenious Ireland",
+        "subtitle": "A County-by-County Exploration of the Mysteries and Marvels of the Ingenious Irish",
+        "authors": [
+          "Mary L. Mulvihill"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2003-12-23",
+        "description": "Ingenious Ireland takes readers on a magnificent tour of the country's natural wonders, clever inventions, and historic sites. Richly illustrated and meticulously compiled, Ingenious Ireland introduces readers to the complete history, culture, and landscape of all thirty-two Irish counties. Mary Mulvihill unearths Ireland's treasures and divulges her secrets, such as the oldest fossil footprints in the Northern hemisphere, the advent of railways, the invention of milk of magnesia, and why the shamrock is a sham. Fascinating and comprehensive, Ingenious Ireland unravels the mysteries and marvels of this remarkable country.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0684020947"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780684020945"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 504,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.5.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=exics12jmtwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=exics12jmtwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=exics12jmtwC&printsec=frontcover&dq=Ireland&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=exics12jmtwC&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ingenious_Ireland.html?hl=&id=exics12jmtwC"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=exics12jmtwC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Ingenious Ireland takes readers on a magnificent tour of the country&#39;s natural wonders, clever inventions, and historic sites."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "r8C6oQEACAAJ",
+      "etag": "NIX4ScEb/Bo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/r8C6oQEACAAJ",
+      "volumeInfo": {
+        "title": "Medieval Ireland",
+        "subtitle": "Territorial, Political and Economic Divisions",
+        "authors": [
+          "Paul MacCotter"
+        ],
+        "publishedDate": "2014-10-31",
+        "description": "Now available in paperback, this book describes, for the first time, the nature of the unique economic areal system of Gaelic Ireland as it developed and changed between the Early Medieval and Anglo-Norman periods, with special emphasis on the eleventh and twelfth centuries. The origins of this system are explored in their European context, and the components of the system: local kingdom, tricha cet, late-tuath and baile biataig, are explored, described and understood. Special attention is given to the role of kingship in this early society, as well as to the lesser grades within society. A large part of this work of political geography is taken up with the task of listing and describing the area of each cantred/tricha cet by use of a newly developed methodology of boundary study. These are then represented cartographically. This methodology reveals the close relationship between Gaelic and Anglo-Norman areal units in a remarkable pattern of continuity. The various component units of the tricha cet, from the townland upwards, are examined of themselves and in addition shown to have great relevance for the study of such subjects as taxation, corporate kinship landholding, military levy, and even the origins of the rural Irish sense of place. This is the first book to be published on this neglected and important area of study, the areal Irish medieval landscape. It has been described variously by Irish and British reviewers as 'a seminal work', 'a landmark publication', as having 'the potential to be a paradigm shifting work', and as 'essential reading for anyone involved in the study of Early Ireland'. In addition to its relevance to Irish medieval history, the book has been described as providing a new approach 'to land tenure elsewhere, particularly but not exclusively in the British Isles'. [Subject: History, Medieval Studies, Irish Studies]Ã?Â?Ã?Â?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1846825571"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781846825576"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Ireland"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=r8C6oQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=r8C6oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=r8C6oQEACAAJ&dq=Ireland&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=r8C6oQEACAAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Medieval_Ireland.html?hl=&id=r8C6oQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=r8C6oQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A large part of this work of political geography is taken up with the task of listing and describing the area of each cantred/tricha cet by use of a newly developed methodology of boundary study. These are then represented cartographically."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "d4rcEAAAQBAJ",
+      "etag": "PkcYrjTyTyk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/d4rcEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Old Ireland in Colour 3",
+        "authors": [
+          "John Breslin",
+          "Sarah Anne Buckley"
+        ],
+        "publisher": "Merrion Press",
+        "publishedDate": "2023-10-12",
+        "description": "Often imitated but never equalled, the Old Ireland in Colour books are beloved by Irish readers at home and abroad, and in this, the third book of the series, the authors have uncovered yet more photographic gems and breathed new life into them in glorious colour. All of Irish life is here – from evictions in Connemara to the mosgt elegant drawing rooms in Dublin. Famous faces from politics and the arts appear alongside humble labourers and farmers and impish children from all kinjds of backgrounds light up this book’s glorious pages. With endless surprising details to pore over in every picture, and captivating and illuminating text, Old Ireland in Colour 3 is a winning addition to this spectacular series of bestsellng books.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781785374722"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1785374729"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 274,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=d4rcEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=d4rcEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=d4rcEAAAQBAJ&printsec=frontcover&dq=Ireland&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=d4rcEAAAQBAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Old_Ireland_in_Colour_3.html?hl=&id=d4rcEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Old_Ireland_in_Colour_3-sample-epub.acsm?id=d4rcEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ie/books/download/Old_Ireland_in_Colour_3-sample-pdf.acsm?id=d4rcEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=d4rcEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With endless surprising details to pore over in every picture, and captivating and illuminating text, Old Ireland in Colour 3 is a winning addition to this spectacular series of bestsellng books."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JmYNAAAAYAAJ",
+      "etag": "+L8XJXatWpw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JmYNAAAAYAAJ",
+      "volumeInfo": {
+        "title": "The Beauties of Ireland",
+        "subtitle": "Being Original Delineations, Topographical, Historical, and Biographical, of Each County",
+        "authors": [
+          "James Norris Brewer"
+        ],
+        "publishedDate": "1825",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044024326654"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 684,
+        "printType": "BOOK",
+        "categories": [
+          "Architecture"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.7.8.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JmYNAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JmYNAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=JmYNAAAAYAAJ&printsec=frontcover&dq=Ireland&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=JmYNAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JmYNAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=JmYNAAAAYAAJ&rdid=book-JmYNAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.ie/books/download/The_Beauties_of_Ireland.epub?id=JmYNAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.ie/books/download/The_Beauties_of_Ireland.pdf?id=JmYNAAAAYAAJ&hl=&output=pdf&sig=ACfU3U0xk_i8pWuvN7KCJrKUgis9PXepzQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JmYNAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MFErPwAACAAJ",
+      "etag": "hNaEy28H6ww",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MFErPwAACAAJ",
+      "volumeInfo": {
+        "title": "Gaelic Ireland, C. 1250-C. 1650",
+        "subtitle": "Land, Lordship and Settlement",
+        "authors": [
+          "David Edwards",
+          "Elizabeth FitzPatrick"
+        ],
+        "publishedDate": "2004",
+        "description": "This massive work, published in hardback in 2001 to critical acclaim, has become one of the definitive books on Gaelic Ireland. In is now made available in paperback. Running to over 450 pages, it includes a place-name index, a personal-name and collective-name index.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1851828001"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781851828005"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Celts"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MFErPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MFErPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=MFErPwAACAAJ&dq=Ireland&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=MFErPwAACAAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gaelic_Ireland_C_1250_C_1650.html?hl=&id=MFErPwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MFErPwAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This massive work, published in hardback in 2001 to critical acclaim, has become one of the definitive books on Gaelic Ireland."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "l91FvQEACAAJ",
+      "etag": "1GfRXs4UUqg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/l91FvQEACAAJ",
+      "volumeInfo": {
+        "title": "The Law of Evidence in Ireland",
+        "authors": [
+          "Caroline Fennell"
+        ],
+        "publisher": "Bloomsbury Professional",
+        "publishedDate": "2019-10-31",
+        "description": "This the fourth edition gives an up-to-date account of the law of evidence in Ireland. The text is of interest to all those working in the Irish legal system, the criminal legal system in particular as well as to policy makers and those studying more general issues related to matters of trial, adjudication and fact-finding in various contexts. It explores the development of a particular Irish dimension to evidence scholarship, which is based on constitutional notions of fairness. In light of the incorporation of the ECHR, this must continue to be influential in this and possibly other jurisdictions. The phenomenon of the Special Criminal Court is considered and ithe Criminal Justice (Forensic Evidence and DNA Database System) Act 2014 is also considered in detail.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1526504898"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781526504890"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 512,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=l91FvQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=l91FvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ie/books?id=l91FvQEACAAJ&dq=Ireland&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ie/books?id=l91FvQEACAAJ&dq=Ireland&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Law_of_Evidence_in_Ireland.html?hl=&id=l91FvQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IE",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=l91FvQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Now in its third edition, this student text covers all the main areas of the law of evidence in Ireland. It is updated to take account of all legislative and case law developments --"
+      }
+    }
+  ]
+}
