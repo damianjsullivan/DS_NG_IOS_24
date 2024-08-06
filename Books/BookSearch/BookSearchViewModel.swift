@@ -22,9 +22,10 @@ class BookSearchViewModel {
     
     }
     
-    func searchBooks() async {
+    func searchBooks(completion: (()->())? = nil) async {
         guard !searchQuery.isEmpty else {
             self.books = []
+            completion?()
             return
         }
         
@@ -36,12 +37,14 @@ class BookSearchViewModel {
             DispatchQueue.main.async {
                 self.books = books
                 self.isLoading = false
+                completion?()
             }
         } catch {
             DispatchQueue.main.async {
                 Logger().error("\(error.localizedDescription, privacy: .public)")
                 self.errorMessage = "Something went wrong. Please try again."
                 self.isLoading = false
+                completion?()
             }
         }
     }
