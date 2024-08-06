@@ -10,4 +10,5 @@ import Foundation
 enum Viewability: String, Codable {
     case noPages = "NO_PAGES"
     case partial = "PARTIAL"
+    case allPages = "ALL_PAGES"
 }

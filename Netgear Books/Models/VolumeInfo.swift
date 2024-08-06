@@ -11,7 +11,7 @@ import Foundation
 struct VolumeInfo: Codable {
     let title: String
     let authors: [String]
-    let publishedDate: String
+    let publishedDate: String?
     let readingModes: ReadingModes
     let pageCount: Int?
     let printType: PrintType
@@ -26,7 +26,7 @@ struct VolumeInfo: Codable {
     let canonicalVolumeLink: String
     let subtitle: String?
     let publisher: String?
-    let description: String?
+    let volumeDescription: String?
     let industryIdentifiers: [IndustryIdentifier]?
     let categories: [String]?
     let averageRating: Double?
@@ -50,7 +50,7 @@ struct VolumeInfo: Codable {
         case canonicalVolumeLink = "canonicalVolumeLink"
         case subtitle = "subtitle"
         case publisher = "publisher"
-        case description = "description"
+        case volumeDescription = "description"
         case industryIdentifiers = "industryIdentifiers"
         case categories = "categories"
         case averageRating = "averageRating"

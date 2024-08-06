@@ -9,4 +9,5 @@ import Foundation
 
 enum TextToSpeechPermission: String, Codable {
     case allowed = "ALLOWED"
+    case allowedForAccessibility = "ALLOWED_FOR_ACCESSIBILITY"
 }

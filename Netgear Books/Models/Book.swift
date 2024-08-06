@@ -52,7 +52,7 @@ class Book: Identifiable, Codable {
         self.volumeInfo = try container.decode(VolumeInfo.self, forKey: .volumeInfo)
         self.saleInfo = try container.decode(SaleInfo.self, forKey: .saleInfo)
         self.accessInfo = try container.decode(AccessInfo.self, forKey: .accessInfo)
-        self.searchInfo = try container.decode(SearchInfo?.self, forKey: .searchInfo)
+        self.searchInfo = try container.decodeIfPresent(SearchInfo.self, forKey: .searchInfo)
     }
     
     func encode(to encoder: Encoder) throws {

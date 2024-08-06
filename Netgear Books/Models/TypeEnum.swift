@@ -10,4 +10,5 @@ import Foundation
 enum TypeEnum: String, Codable {
     case isbn10 = "ISBN_10"
     case isbn13 = "ISBN_13"
+    case other = "OTHER"
 }

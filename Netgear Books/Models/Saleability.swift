@@ -10,4 +10,5 @@ import Foundation
 enum Saleability: String, Codable {
     case forSale = "FOR_SALE"
     case notForSale = "NOT_FOR_SALE"
+    case free = "FREE"
 }

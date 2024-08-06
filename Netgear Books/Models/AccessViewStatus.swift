@@ -10,4 +10,5 @@ import Foundation
 enum AccessViewStatus: String, Codable {
     case none = "NONE"
     case sample = "SAMPLE"
+    case fullPublicDomain = "FULL_PUBLIC_DOMAIN"
 }
