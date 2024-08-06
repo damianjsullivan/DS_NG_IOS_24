@@ -12,7 +12,6 @@
 		2D38D64C2C5E5DDF00ADD586 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D64B2C5E5DDF00ADD586 /* Item.swift */; };
 		2D38D64E2C5E5DE000ADD586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */; };
 		2D38D6512C5E5DE000ADD586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */; };
-		2D38D65B2C5E5DE000ADD586 /* Netgear_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */; };
 		2D38D6652C5E5DE000ADD586 /* Netgear_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */; };
 		2D38D6672C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */; };
 		2D38D6792C5FCCF300ADD586 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6782C5FCCF300ADD586 /* BookResponse.swift */; };
@@ -36,6 +35,17 @@
 		2D38D6A82C5FCD2600ADD586 /* Viewability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D68F2C5FCD2600ADD586 /* Viewability.swift */; };
 		2D38D6AA2C5FCD2600ADD586 /* MaturityRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6912C5FCD2600ADD586 /* MaturityRating.swift */; };
 		2D38D6AB2C5FCD2600ADD586 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6922C5FCD2600ADD586 /* Offer.swift */; };
+		2D38D6AD2C5FDC2000ADD586 /* BookServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6AC2C5FDC2000ADD586 /* BookServiceProtocol.swift */; };
+		2D38D6AF2C5FDC2C00ADD586 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6AE2C5FDC2C00ADD586 /* BookService.swift */; };
+		2D38D6B12C616AE400ADD586 /* BookDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6B02C616AE400ADD586 /* BookDetailsViewModel.swift */; };
+		2D38D6B32C616B0100ADD586 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6B22C616B0100ADD586 /* BookDetailsView.swift */; };
+		2D38D6B52C616B1600ADD586 /* BookSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6B42C616B1600ADD586 /* BookSearchViewModel.swift */; };
+		2D38D6B72C616B2000ADD586 /* BookSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6B62C616B2000ADD586 /* BookSearchView.swift */; };
+		2D38D6BF2C61856700ADD586 /* BookServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6BE2C61856700ADD586 /* BookServiceTests.swift */; };
+		2D38D6CA2C619C1000ADD586 /* JSONMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6C92C619C1000ADD586 /* JSONMappingTests.swift */; };
+		2D38D6CC2C61AC3800ADD586 /* sampleBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D6CB2C61AC3800ADD586 /* sampleBooks.json */; };
+		2D38D6CE2C61AC9B00ADD586 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6CD2C61AC9B00ADD586 /* BookData.swift */; };
+		2D38D6CF2C61B78900ADD586 /* sampleBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D6CB2C61AC3800ADD586 /* sampleBooks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,15 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netgear Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D6442C5E5DDF00ADD586 /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksApp.swift; sourceTree = "<group>"; };
 		2D38D6492C5E5DDF00ADD586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D38D64B2C5E5DDF00ADD586 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netgear BooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksTests.swift; sourceTree = "<group>"; };
-		2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netgear BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D6562C5E5DE000ADD586 /* BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38D6602C5E5DE000ADD586 /* BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITests.swift; sourceTree = "<group>"; };
 		2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netgear_BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D38D6782C5FCCF300ADD586 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
@@ -88,6 +97,19 @@
 		2D38D68F2C5FCD2600ADD586 /* Viewability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewability.swift; sourceTree = "<group>"; };
 		2D38D6912C5FCD2600ADD586 /* MaturityRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaturityRating.swift; sourceTree = "<group>"; };
 		2D38D6922C5FCD2600ADD586 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		2D38D6AC2C5FDC2000ADD586 /* BookServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookServiceProtocol.swift; sourceTree = "<group>"; };
+		2D38D6AE2C5FDC2C00ADD586 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		2D38D6B02C616AE400ADD586 /* BookDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewModel.swift; sourceTree = "<group>"; };
+		2D38D6B22C616B0100ADD586 /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		2D38D6B42C616B1600ADD586 /* BookSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchViewModel.swift; sourceTree = "<group>"; };
+		2D38D6B62C616B2000ADD586 /* BookSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchView.swift; sourceTree = "<group>"; };
+		2D38D6BE2C61856700ADD586 /* BookServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookServiceTests.swift; sourceTree = "<group>"; };
+		2D38D6C22C6199A800ADD586 /* BookDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModelTests.swift; sourceTree = "<group>"; };
+		2D38D6C42C6199F400ADD586 /* BookSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchViewModelTests.swift; sourceTree = "<group>"; };
+		2D38D6C92C619C1000ADD586 /* JSONMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMappingTests.swift; sourceTree = "<group>"; };
+		2D38D6CB2C61AC3800ADD586 /* sampleBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleBooks.json; sourceTree = "<group>"; };
+		2D38D6CD2C61AC9B00ADD586 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		2D38D6D12C61C27E00ADD586 /* Netgear-Books-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Netgear-Books-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +140,9 @@
 		2D38D63B2C5E5DDF00ADD586 = {
 			isa = PBXGroup;
 			children = (
-				2D38D6462C5E5DDF00ADD586 /* Netgear Books */,
-				2D38D6592C5E5DE000ADD586 /* Netgear BooksTests */,
-				2D38D6632C5E5DE000ADD586 /* Netgear BooksUITests */,
+				2D38D6462C5E5DDF00ADD586 /* Books */,
+				2D38D6592C5E5DE000ADD586 /* BooksTests */,
+				2D38D6632C5E5DE000ADD586 /* BooksUITests */,
 				2D38D6452C5E5DDF00ADD586 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,58 +150,67 @@
 		2D38D6452C5E5DDF00ADD586 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */,
-				2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */,
-				2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */,
+				2D38D6442C5E5DDF00ADD586 /* Books.app */,
+				2D38D6562C5E5DE000ADD586 /* BooksTests.xctest */,
+				2D38D6602C5E5DE000ADD586 /* BooksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D38D6462C5E5DDF00ADD586 /* Netgear Books */ = {
+		2D38D6462C5E5DDF00ADD586 /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6D12C61C27E00ADD586 /* Netgear-Books-Info.plist */,
 				2D38D6732C5E5E2900ADD586 /* BookSearch */,
 				2D38D6742C5E5E3500ADD586 /* BookResultItem */,
 				2D38D6752C5E5E5000ADD586 /* BookDetails */,
 				2D38D6762C5E5E6C00ADD586 /* Models */,
 				2D38D6772C5E5E7F00ADD586 /* Networking */,
+				2D38D6B82C616BCE00ADD586 /* Persistance */,
 				2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */,
 				2D38D6492C5E5DDF00ADD586 /* ContentView.swift */,
 				2D38D64B2C5E5DDF00ADD586 /* Item.swift */,
 				2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */,
 				2D38D64F2C5E5DE000ADD586 /* Preview Content */,
 			);
-			path = "Netgear Books";
+			path = Books;
 			sourceTree = "<group>";
 		};
 		2D38D64F2C5E5DE000ADD586 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6CB2C61AC3800ADD586 /* sampleBooks.json */,
 				2D38D6502C5E5DE000ADD586 /* Preview Assets.xcassets */,
+				2D38D6CD2C61AC9B00ADD586 /* BookData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2D38D6592C5E5DE000ADD586 /* Netgear BooksTests */ = {
+		2D38D6592C5E5DE000ADD586 /* BooksTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D38D65A2C5E5DE000ADD586 /* Netgear_BooksTests.swift */,
+				2D38D6C02C61996200ADD586 /* BookSearch */,
+				2D38D6C12C61996F00ADD586 /* BookDetails */,
+				2D38D6C62C619B6400ADD586 /* Models */,
+				2D38D6BD2C61853D00ADD586 /* Networking */,
 			);
-			path = "Netgear BooksTests";
+			path = BooksTests;
 			sourceTree = "<group>";
 		};
-		2D38D6632C5E5DE000ADD586 /* Netgear BooksUITests */ = {
+		2D38D6632C5E5DE000ADD586 /* BooksUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2D38D6642C5E5DE000ADD586 /* Netgear_BooksUITests.swift */,
 				2D38D6662C5E5DE000ADD586 /* Netgear_BooksUITestsLaunchTests.swift */,
 			);
-			path = "Netgear BooksUITests";
+			path = BooksUITests;
 			sourceTree = "<group>";
 		};
 		2D38D6732C5E5E2900ADD586 /* BookSearch */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6B42C616B1600ADD586 /* BookSearchViewModel.swift */,
+				2D38D6B62C616B2000ADD586 /* BookSearchView.swift */,
 			);
 			path = BookSearch;
 			sourceTree = "<group>";
@@ -194,6 +225,8 @@
 		2D38D6752C5E5E5000ADD586 /* BookDetails */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6B02C616AE400ADD586 /* BookDetailsViewModel.swift */,
+				2D38D6B22C616B0100ADD586 /* BookDetailsView.swift */,
 			);
 			path = BookDetails;
 			sourceTree = "<group>";
@@ -229,16 +262,57 @@
 		2D38D6772C5E5E7F00ADD586 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				2D38D6AC2C5FDC2000ADD586 /* BookServiceProtocol.swift */,
+				2D38D6AE2C5FDC2C00ADD586 /* BookService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D38D6B82C616BCE00ADD586 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		2D38D6BD2C61853D00ADD586 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6BE2C61856700ADD586 /* BookServiceTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D38D6C02C61996200ADD586 /* BookSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6C42C6199F400ADD586 /* BookSearchViewModelTests.swift */,
+			);
+			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		2D38D6C12C61996F00ADD586 /* BookDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6C22C6199A800ADD586 /* BookDetailViewModelTests.swift */,
+			);
+			path = BookDetails;
+			sourceTree = "<group>";
+		};
+		2D38D6C62C619B6400ADD586 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D38D6C92C619C1000ADD586 /* JSONMappingTests.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D38D6432C5E5DDF00ADD586 /* Netgear Books */ = {
+		2D38D6432C5E5DDF00ADD586 /* Books */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear Books" */;
+			buildConfigurationList = 2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Books" */;
 			buildPhases = (
 				2D38D6402C5E5DDF00ADD586 /* Sources */,
 				2D38D6412C5E5DDF00ADD586 /* Frameworks */,
@@ -248,14 +322,14 @@
 			);
 			dependencies = (
 			);
-			name = "Netgear Books";
+			name = Books;
 			productName = "Netgear Books";
-			productReference = 2D38D6442C5E5DDF00ADD586 /* Netgear Books.app */;
+			productReference = 2D38D6442C5E5DDF00ADD586 /* Books.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D38D6552C5E5DE000ADD586 /* Netgear BooksTests */ = {
+		2D38D6552C5E5DE000ADD586 /* BooksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksTests" */;
+			buildConfigurationList = 2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "BooksTests" */;
 			buildPhases = (
 				2D38D6522C5E5DE000ADD586 /* Sources */,
 				2D38D6532C5E5DE000ADD586 /* Frameworks */,
@@ -266,14 +340,14 @@
 			dependencies = (
 				2D38D6582C5E5DE000ADD586 /* PBXTargetDependency */,
 			);
-			name = "Netgear BooksTests";
+			name = BooksTests;
 			productName = "Netgear BooksTests";
-			productReference = 2D38D6562C5E5DE000ADD586 /* Netgear BooksTests.xctest */;
+			productReference = 2D38D6562C5E5DE000ADD586 /* BooksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D38D65F2C5E5DE000ADD586 /* Netgear BooksUITests */ = {
+		2D38D65F2C5E5DE000ADD586 /* BooksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksUITests" */;
+			buildConfigurationList = 2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "BooksUITests" */;
 			buildPhases = (
 				2D38D65C2C5E5DE000ADD586 /* Sources */,
 				2D38D65D2C5E5DE000ADD586 /* Frameworks */,
@@ -284,9 +358,9 @@
 			dependencies = (
 				2D38D6622C5E5DE000ADD586 /* PBXTargetDependency */,
 			);
-			name = "Netgear BooksUITests";
+			name = BooksUITests;
 			productName = "Netgear BooksUITests";
-			productReference = 2D38D6602C5E5DE000ADD586 /* Netgear BooksUITests.xctest */;
+			productReference = 2D38D6602C5E5DE000ADD586 /* BooksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Netgear Books" */;
+			buildConfigurationList = 2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Books" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,9 +399,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D38D6432C5E5DDF00ADD586 /* Netgear Books */,
-				2D38D6552C5E5DE000ADD586 /* Netgear BooksTests */,
-				2D38D65F2C5E5DE000ADD586 /* Netgear BooksUITests */,
+				2D38D6432C5E5DDF00ADD586 /* Books */,
+				2D38D6552C5E5DE000ADD586 /* BooksTests */,
+				2D38D65F2C5E5DE000ADD586 /* BooksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D38D6CC2C61AC3800ADD586 /* sampleBooks.json in Resources */,
 				2D38D6512C5E5DE000ADD586 /* Preview Assets.xcassets in Resources */,
 				2D38D64E2C5E5DE000ADD586 /* Assets.xcassets in Resources */,
 			);
@@ -346,6 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D38D6CF2C61B78900ADD586 /* sampleBooks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,20 +447,27 @@
 				2D38D6AB2C5FCD2600ADD586 /* Offer.swift in Sources */,
 				2D38D6A72C5FCD2600ADD586 /* Epub.swift in Sources */,
 				2D38D6972C5FCD2600ADD586 /* VolumeInfo.swift in Sources */,
+				2D38D6B32C616B0100ADD586 /* BookDetailsView.swift in Sources */,
+				2D38D6B52C616B1600ADD586 /* BookSearchViewModel.swift in Sources */,
 				2D38D6A52C5FCD2600ADD586 /* ImageLinks.swift in Sources */,
 				2D38D64A2C5E5DDF00ADD586 /* ContentView.swift in Sources */,
 				2D38D6AA2C5FCD2600ADD586 /* MaturityRating.swift in Sources */,
 				2D38D6992C5FCD2600ADD586 /* IndustryIdentifier.swift in Sources */,
+				2D38D6CE2C61AC9B00ADD586 /* BookData.swift in Sources */,
+				2D38D6B12C616AE400ADD586 /* BookDetailsViewModel.swift in Sources */,
 				2D38D69F2C5FCD2600ADD586 /* TypeEnum.swift in Sources */,
 				2D38D64C2C5E5DDF00ADD586 /* Item.swift in Sources */,
 				2D38D6A32C5FCD2600ADD586 /* SaleInfoListPrice.swift in Sources */,
 				2D38D6482C5E5DDF00ADD586 /* Netgear_BooksApp.swift in Sources */,
+				2D38D6AF2C5FDC2C00ADD586 /* BookService.swift in Sources */,
 				2D38D6A22C5FCD2600ADD586 /* AccessViewStatus.swift in Sources */,
 				2D38D6792C5FCCF300ADD586 /* BookResponse.swift in Sources */,
 				2D38D69D2C5FCD2600ADD586 /* Book.swift in Sources */,
+				2D38D6AD2C5FDC2000ADD586 /* BookServiceProtocol.swift in Sources */,
 				2D38D6A12C5FCD2600ADD586 /* PrintType.swift in Sources */,
 				2D38D6952C5FCD2600ADD586 /* SaleInfo.swift in Sources */,
 				2D38D6982C5FCD2600ADD586 /* ReadingModes.swift in Sources */,
+				2D38D6B72C616B2000ADD586 /* BookSearchView.swift in Sources */,
 				2D38D6A02C5FCD2600ADD586 /* SearchInfo.swift in Sources */,
 				2D38D69E2C5FCD2600ADD586 /* Saleability.swift in Sources */,
 			);
@@ -394,7 +477,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D38D65B2C5E5DE000ADD586 /* Netgear_BooksTests.swift in Sources */,
+				2D38D6BF2C61856700ADD586 /* BookServiceTests.swift in Sources */,
+				2D38D6CA2C619C1000ADD586 /* JSONMappingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,12 +496,12 @@
 /* Begin PBXTargetDependency section */
 		2D38D6582C5E5DE000ADD586 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D38D6432C5E5DDF00ADD586 /* Netgear Books */;
+			target = 2D38D6432C5E5DDF00ADD586 /* Books */;
 			targetProxy = 2D38D6572C5E5DE000ADD586 /* PBXContainerItemProxy */;
 		};
 		2D38D6622C5E5DE000ADD586 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D38D6432C5E5DDF00ADD586 /* Netgear Books */;
+			target = 2D38D6432C5E5DDF00ADD586 /* Books */;
 			targetProxy = 2D38D6612C5E5DE000ADD586 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -549,10 +633,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Netgear Books/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Books/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PN68ERUJ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netgear-Books-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -578,10 +663,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Netgear Books/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Books/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PN68ERUJ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netgear-Books-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -616,7 +702,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netgear Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Netgear Books";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Books";
 			};
 			name = Debug;
 		};
@@ -636,7 +722,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netgear Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Netgear Books";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Books";
 			};
 			name = Release;
 		};
@@ -679,7 +765,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Netgear Books" */ = {
+		2D38D63F2C5E5DDF00ADD586 /* Build configuration list for PBXProject "Books" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D38D6682C5E5DE000ADD586 /* Debug */,
@@ -688,7 +774,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear Books" */ = {
+		2D38D66A2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Books" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D38D66B2C5E5DE000ADD586 /* Debug */,
@@ -697,7 +783,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksTests" */ = {
+		2D38D66D2C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "BooksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D38D66E2C5E5DE000ADD586 /* Debug */,
@@ -706,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "Netgear BooksUITests" */ = {
+		2D38D6702C5E5DE000ADD586 /* Build configuration list for PBXNativeTarget "BooksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D38D6712C5E5DE000ADD586 /* Debug */,

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Netgear_Books
+@testable import Books
 
 final class BookServiceTests: XCTestCase {
 
