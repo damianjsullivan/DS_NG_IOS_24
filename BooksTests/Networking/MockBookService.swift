@@ -22,7 +22,7 @@ class MockBookService: BookServiceProtocol {
         mockBooks = bookResponse.items
     }
     
-    func searchBooks(query: String) async throws -> [Book] {
+    func fetchBooks(query: String) async throws -> [Book] {
         if let error = error {
             throw error
         }

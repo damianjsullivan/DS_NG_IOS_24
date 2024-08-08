@@ -22,7 +22,7 @@ class BookService: BookServiceProtocol {
     /// - Parameter query: The search query string.
     /// - Returns: An array of books matching the search criteria.
     /// - Throws: An error if the network request fails or the data cannot be parsed.
-    func searchBooks(query: String) async throws -> [Book] {
+    func fetchBooks(query: String) async throws -> [Book] {
         guard var urlComponents = URLComponents(string: baseURL) else {
             throw BookServiceError.invalidURL
         }

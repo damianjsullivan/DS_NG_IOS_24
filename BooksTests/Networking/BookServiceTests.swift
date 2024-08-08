@@ -22,7 +22,7 @@ final class BookServiceTests: XCTestCase {
     
     func testSearchBooksReturnsBooks() async throws {
         // Act
-        let result = try await mockService.searchBooks(query: "West")
+        let result = try await mockService.fetchBooks(query: "West")
         
         // Assert
         XCTAssertEqual(result.count, 1)
@@ -35,7 +35,7 @@ final class BookServiceTests: XCTestCase {
         
         // Act & Assert
         do {
-            _ = try await mockService.searchBooks(query: "West")
+            _ = try await mockService.fetchBooks(query: "West")
             XCTFail("Expected error but got success")
         } catch {
             // Then

@@ -47,6 +47,8 @@
 		2D38D6CF2C61B78900ADD586 /* sampleBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D38D6CB2C61AC3800ADD586 /* sampleBooks.json */; };
 		2D38D6D52C6247BD00ADD586 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6D42C6247BD00ADD586 /* BookCardView.swift */; };
 		2D38D6D72C6247CB00ADD586 /* BookCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38D6D62C6247CB00ADD586 /* BookCardViewModel.swift */; };
+		2DC3D9C52C651B08006F77ED /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3D9C22C651B08006F77ED /* DataManager.swift */; };
+		2DC3D9C62C651B08006F77ED /* DataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3D9C32C651B08006F77ED /* DataManagerProtocol.swift */; };
 		2DE027592C6278B200EB8589 /* MockBookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE027582C6278B200EB8589 /* MockBookService.swift */; };
 		2DE0275B2C6279F500EB8589 /* BookServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0275A2C6279F500EB8589 /* BookServiceTests.swift */; };
 		2DE0275F2C627FED00EB8589 /* BookCardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0275E2C627FED00EB8589 /* BookCardViewModelTests.swift */; };
@@ -121,6 +123,8 @@
 		2D38D6D12C61C27E00ADD586 /* Netgear-Books-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Netgear-Books-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2D38D6D42C6247BD00ADD586 /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
 		2D38D6D62C6247CB00ADD586 /* BookCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardViewModel.swift; sourceTree = "<group>"; };
+		2DC3D9C22C651B08006F77ED /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2DC3D9C32C651B08006F77ED /* DataManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerProtocol.swift; sourceTree = "<group>"; };
 		2DE027582C6278B200EB8589 /* MockBookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookService.swift; sourceTree = "<group>"; };
 		2DE0275A2C6279F500EB8589 /* BookServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookServiceTests.swift; sourceTree = "<group>"; };
 		2DE0275E2C627FED00EB8589 /* BookCardViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardViewModelTests.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				2D38D6752C5E5E5000ADD586 /* BookDetails */,
 				2D38D6762C5E5E6C00ADD586 /* Models */,
 				2D38D6772C5E5E7F00ADD586 /* Networking */,
+				2DC3D9C42C651B08006F77ED /* Persistance */,
 				2D38D6472C5E5DDF00ADD586 /* Netgear_BooksApp.swift */,
 				2D38D64D2C5E5DE000ADD586 /* Assets.xcassets */,
 				2D38D64F2C5E5DE000ADD586 /* Preview Content */,
@@ -319,6 +324,15 @@
 				2D38D6C92C619C1000ADD586 /* JSONMappingTests.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2DC3D9C42C651B08006F77ED /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				2DC3D9C22C651B08006F77ED /* DataManager.swift */,
+				2DC3D9C32C651B08006F77ED /* DataManagerProtocol.swift */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,6 +486,8 @@
 				2D38D69F2C5FCD2600ADD586 /* TypeEnum.swift in Sources */,
 				2D38D6A32C5FCD2600ADD586 /* SaleInfoListPrice.swift in Sources */,
 				2D38D6482C5E5DDF00ADD586 /* Netgear_BooksApp.swift in Sources */,
+				2DC3D9C62C651B08006F77ED /* DataManagerProtocol.swift in Sources */,
+				2DC3D9C52C651B08006F77ED /* DataManager.swift in Sources */,
 				2D38D6AF2C5FDC2C00ADD586 /* BookService.swift in Sources */,
 				2D38D6A22C5FCD2600ADD586 /* AccessViewStatus.swift in Sources */,
 				2D38D6792C5FCCF300ADD586 /* BookResponse.swift in Sources */,

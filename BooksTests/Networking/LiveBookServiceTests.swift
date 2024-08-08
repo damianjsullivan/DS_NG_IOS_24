@@ -27,7 +27,7 @@ final class LiveBookServiceTests: XCTestCase {
         let query = "War and Peace"
         
         // When
-        let books = try await bookService.searchBooks(query: query)
+        let books = try await bookService.fetchBooks(query: query)
         
         // Then
         XCTAssertFalse(books.isEmpty)
@@ -39,7 +39,7 @@ final class LiveBookServiceTests: XCTestCase {
         let query = "" // Invalid query to simulate failure
         
         do {
-            _ = try await bookService.searchBooks(query: query)
+            _ = try await bookService.fetchBooks(query: query)
             XCTFail("Expected error but got success")
         } catch {
             // Then
