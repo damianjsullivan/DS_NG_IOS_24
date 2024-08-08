@@ -23,4 +23,4 @@
 - Add xcconfigs with configurations for different environments e.g. production, QA
 - Add Fastlane configuration to automate running tests and builds
 - Add SwiftLint configuration to enforce styles and conventions
-
+- Split into modules
