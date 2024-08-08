@@ -15,8 +15,8 @@ enum BookServiceError: Error {
 }
 
 class BookService: BookServiceProtocol {
-    private let apiKey = "AIzaSyAkRTKoU91vgrSWZrgQgY609i7COmZ-dkI"
-    private let baseURL = "https://www.googleapis.com/books/v1/volumes"
+    private let apiKey = API.apiKey
+    private let baseURL = API.baseURL
     
     /// Searches books using the given query string.
     /// - Parameter query: The search query string.

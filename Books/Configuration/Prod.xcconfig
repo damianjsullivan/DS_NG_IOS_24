@@ -1,0 +1,23 @@
+//
+//  Prod.xcconfig
+//  Books
+//
+//  Created by Damian Sullivan on 08/08/2024.
+//
+
+// App ID
+BUNDLE_DISPLAY_NAME                 = Prod
+PRODUCT_BUNDLE_IDENTIFIER           = com.brightstarsoftware.books.prod
+
+// Build
+ONLY_ACTIVE_ARCH                    = YES
+DEBUG_INFORMATION_FORMAT            = dwarf
+ENABLE_TESTABILITY                  = YES
+GCC_OPTIMIZATION_LEVEL              = 0
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+SWIFT_COMPILATION_MODE              = singlefile
+SWIFT_OPTIMIZATION_LEVEL            = -Onone
+
+// Service Note: These would be different for each environemtn for a real app
+BASE_URL                            = www.googleapis.com/books/v1/volumes
+API_KEY                             = AIzaSyAkRTKoU91vgrSWZrgQgY609i7COmZ-dkI
